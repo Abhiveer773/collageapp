@@ -4,7 +4,7 @@ take_snapshot();
 speak_data = "taking my selfie in 10 seconds";
 var utterThis  = new SpeechSynthesisUtterance(speck_data);
 synth.speak(utterThis);
-}; 5000 );
+} , 5000 ) ;
 
 function setTimeout()
 {
